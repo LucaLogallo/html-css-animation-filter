@@ -173,11 +173,93 @@
     animation: trattosopra 2s linear;
 }
 
-@keyframes trattospra{
+@keyframes trattosopra{
     0%{ left: 10%; }
     50%{ left: calc(100% - 60px); }
     100%{ left: 10%; }
 }
 
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: trattosotto 2s linear;
+}
+
+@keyframes trattosotto{
+    0%{ right: 20%; }
+    50%{ right: calc(100% - 60px); }
+    100%{ right: 20%; }
+}
 
 /* esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: trattosoprac 2s linear;
+}
+
+@keyframes trattosoprac{
+    
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+    16%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    32%{
+        left: calc(100% - 30px);
+        top: calc(100%-10px);
+    }
+    48%{
+        left: calc(100% - 30px);
+        top: calc(100% - 10px);
+    }
+    64%{
+        left: -20px;
+        top: calc(100% - 10px);
+    }
+    80%{
+        left: -20px;
+        top:  -10px;
+    }
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: trattosottoc 2s linear;
+}
+
+@keyframes trattosottoc{
+    
+    0%{
+        right: 20%;
+        bottom: -10px;
+    }
+    16%{
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    32%{
+        right: calc(100% - 30px);
+        bottom: calc(100%-10px);
+    }
+    48%{
+        right: calc(100% - 30px);
+        bottom: calc(100% - 10px);
+    }
+    64%{
+        right: -20px;
+        bottom: calc(100% - 10px);
+    }
+    80%{
+        right: -20px;
+        bottom:  -10px;
+    }
+    100%{
+        right: 10%;
+        bottom: -10px;
+    }
+}
